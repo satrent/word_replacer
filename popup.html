@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Word Replacer</title>
   <style>
     body {
-      width: 300px;
-      padding: 10px;
+      width: 450px;
+      padding: 15px;
       font-family: sans-serif;
     }
+
     .input-group {
       margin-bottom: 10px;
       display: flex;
       gap: 5px;
     }
+
     input {
       flex: 1;
       padding: 5px;
     }
+
     button {
       padding: 5px 10px;
       cursor: pointer;
     }
+
     #replacements-list {
       margin-top: 10px;
       border-top: 1px solid #ccc;
       padding-top: 10px;
     }
+
     .replacement-item {
       display: flex;
       justify-content: space-between;
@@ -35,9 +41,11 @@
       padding: 5px;
       border-radius: 4px;
     }
+
     .replacement-text {
       font-size: 14px;
     }
+
     .remove-btn {
       background: #ff4d4d;
       color: white;
@@ -48,9 +56,10 @@
     }
   </style>
 </head>
+
 <body>
   <h3>Word Replacer</h3>
-  
+
   <div class="input-group">
     <input type="text" id="target" placeholder="Target Word" />
     <input type="text" id="replacement" placeholder="Replacement" />
@@ -63,4 +72,5 @@
 
   <script src="popup.js"></script>
 </body>
+
 </html>
